@@ -4,11 +4,11 @@ import java.awt.event.*;
 import java.util.ArrayList;
 
 public class Chatbot extends JFrame {
-    private JTextArea chatArea = new JTextArea();
-    private JPanel footerPanel = new JPanel();
+    private final JTextArea chatArea = new JTextArea();
+    private  final JPanel footerPanel = new JPanel();
     private JTextField inputField = new JTextField();
     private JButton sendButton = new JButton("Send");
-    private JPanel topPanel = new JPanel();
+    JPanel topPanel = new JPanel();
     private ArrayList<String> userHistory = new ArrayList<>();
     private ArrayList<Integer> userResponses = new ArrayList<>();
     private boolean categorySelected = false;

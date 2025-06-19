@@ -1,0 +1,2 @@
+A computer program is a collection of instructions that performs specific task when executed by a computer.
+
